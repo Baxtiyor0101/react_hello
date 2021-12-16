@@ -1,59 +1,24 @@
-import React from 'react';
-import { Box, Table } from './appStyle';
+import './App'
+import StyledButton, { FancyButton,SubmitButton } from './components/Button/Button'
 
-class App extends React.Component {
-  state={
-    active:null,
-  };
-
-  render() {
-    return (
-      <div style={{display:'flex'}}>
-        <Box type='large'>large</Box>
-        <Box type='medium'>medium</Box>
-        <Box type='small'>small</Box>
-        <Box type='boshqa'>boshqa</Box>
-
-        <Table>
-          <Table.Head>
-            <Table.Tr>
-              <Table.Th>ism</Table.Th>
-              <Table.Th>familya</Table.Th>
-              <Table.Th>tel</Table.Th>
-              <Table.Th>email</Table.Th>
-            </Table.Tr>
-          </Table.Head>
-          <Table.Body>
-            <Table.Tr>
-              <Table.Td>Baxtiyor</Table.Td>
-              <Table.Td>Oqonboyev</Table.Td>
-              <Table.Td>944779722</Table.Td>
-              <Table.Td>nimadir@gmail.com</Table.Td>
-            </Table.Tr>
-            <Table.Tr>
-              <Table.Td>Baxtiyor</Table.Td>
-              <Table.Td>Oqonboyev</Table.Td>
-              <Table.Td>944779722</Table.Td>
-              <Table.Td>nimadir@gmail.com</Table.Td>
-            </Table.Tr>
-            <Table.Tr>
-              <Table.Td>Baxtiyor</Table.Td>
-              <Table.Td>Oqonboyev</Table.Td>
-              <Table.Td>944779722</Table.Td>
-              <Table.Td>nimadir@gmail.com</Table.Td>
-            </Table.Tr>
-            <Table.Tr>
-              <Table.Td>Baxtiyor</Table.Td>
-              <Table.Td>Oqonboyev</Table.Td>
-              <Table.Td>944779722</Table.Td>
-              <Table.Td>nimadir@gmail.com</Table.Td>
-            </Table.Tr>
-          </Table.Body>
-        </Table>
-        
+ function App() {
+  return(
+    <div className='App'>
+      <StyledButton type='submit'>Styled button</StyledButton>
+      <div>
+        <br />
       </div>
-    );
-  }
+     <StyledButton variant='outline'>Styled button</StyledButton>
+     <div>
+        <br />
+      </div>
+      
+     <FancyButton as='a'>Fancy button</FancyButton>
+     <div>
+        <br />
+      </div>
+      <SubmitButton>Submit Button</SubmitButton>
+    </div>
+  )
 }
-
-export default App;
+export default App
