@@ -6,7 +6,8 @@ import Body from '../Body';
 import Payment from '../Payment';
 import Offer from '../Offer';
 import Trending from '../Trending';
-import Trending from '../Specialoffer';
+import Specialoffer from '../Specialoffer';
+import Partners from '../Partners';
 
 export default class index extends Component {
     render() {
@@ -19,6 +20,9 @@ export default class index extends Component {
                 <Payment />
                 <Offer />
                 <Trending />
+                <Specialoffer />
+                <Trending />
+                <Partners />
             </div>
         )
     }
