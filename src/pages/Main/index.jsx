@@ -8,6 +8,8 @@ import Offer from '../Offer';
 import Trending from '../Trending';
 import Specialoffer from '../Specialoffer';
 import Partners from '../Partners';
+import Articles from '../Articles';
+import Footer from '../Footer';
 
 export default class index extends Component {
     render() {
@@ -23,6 +25,8 @@ export default class index extends Component {
                 <Specialoffer />
                 <Trending />
                 <Partners />
+                <Articles />
+                <Footer />
             </div>
         )
     }

@@ -8,7 +8,6 @@ import { ReactComponent as User } from '../../assets/icons/user.svg';
 export const Wrap = styled.div`
 width:100%;
 height:92px;
-background:grey;
 display:flex;
 align-items:center;
 `

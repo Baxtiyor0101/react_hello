@@ -5,7 +5,7 @@ import { Wrap } from './style' ;
 export default class  index extends Component {
     render() {
         return (
-           <div>
+     
                <Wrap>
                <Wrap.Text1>
                    TOP COLLECTIONS 2022
@@ -25,7 +25,6 @@ export default class  index extends Component {
                   
                </Wrap.Img1box>
            </Wrap>
-           </div>
            
         )
     }
