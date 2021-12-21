@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
 import Partners from '../../Components/Partners';
-class index extends React.Component {
- 
+import React from 'react'
 
-    render() {
-        return (
-            <div>
-                <Partners />
-            </div>
-        );
-    }
+ const index = () => {
+    return (
+        <div>
+            <Partners />
+        </div>
+    )
 }
+
 
 
 export default index;

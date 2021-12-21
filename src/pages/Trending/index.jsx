@@ -1,14 +1,11 @@
-import React, { Component } from 'react'
 import Trending from '../../Components/Trending';
+import React from 'react'
 
-
-export default class index extends Component {
-    render() {
-        return (
-            <div>
-                <Trending />
-                
-            </div>
-        )
-    }
+const index = () => {
+    return (
+        <div>
+            <Trending />
+        </div>
+    )
 }
+export default index;

@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
 import Specialoffer from '../../Components/Specialoffer';
+import React from 'react'
 
-
-export default class index extends Component {
-    render() {
-        return (
-            <div>
-                <Specialoffer />
-            </div>
-        )
-    }
+const index = () => {
+    return (
+        <div>
+            <Specialoffer />
+        </div>
+    )
 }
+export default index;

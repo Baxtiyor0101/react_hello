@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
 import Articles from '../../Components/Articles';
-class index extends React.Component {
- 
+import React from 'react'
 
-    render() {
-        return (
-            <div>
-                <Articles />
-            </div>
-        );
-    }
+
+const index = () => {
+    return (
+        <div>
+            <Articles />
+        </div>
+    )
 }
 
 

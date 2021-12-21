@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
 import Payment from '../../Components/Payment';
-class index extends React.Component {
- 
+import React from 'react'
 
-    render() {
-        return (
-            <div>
-                <Payment />
-            </div>
-        );
-    }
+const index = () => {
+    return (
+        <div>
+            <Payment />
+        </div>
+    )
 }
+
 
 
 export default index;

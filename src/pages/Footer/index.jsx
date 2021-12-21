@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
 import Footer from '../../Components/Footer';
-class index extends React.Component {
+import React from 'react'
  
-
-    render() {
-        return (
-            <div>
-                <Footer />
-            </div>
-        );
-    }
-}
+  const index = () => {
+     return (
+         <div>
+            <Footer />
+         </div>
+     )
+ }
+ 
 
 
 export default index;

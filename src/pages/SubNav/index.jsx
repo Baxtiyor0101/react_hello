@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
 import SubNav from '../../Components/SubNav';
-
-
-export default class index extends Component {
-    render() {
-        return (
-            <div>
-                <SubNav />
-            </div>
-        )
-    }
+ 
+ 
+import React from 'react'
+ const index = () => {
+    return (
+        <div>
+            <SubNav />
+        </div>
+    )
 }
+export default index;

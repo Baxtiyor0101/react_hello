@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import Navbar from '../Navbar';
 import SubNav from '../SubNav';
 import Section from '../Section';
@@ -11,23 +10,26 @@ import Partners from '../Partners';
 import Articles from '../Articles';
 import Footer from '../Footer';
 
-export default class index extends Component {
-    render() {
-        return (
-            <div>
-                <Navbar />
-                <SubNav />
-                <Section />
-                <Body />
-                <Payment />
-                <Offer />
-                <Trending />
-                <Specialoffer />
-                <Trending />
-                <Partners />
-                <Articles />
-                <Footer />
-            </div>
-        )
-    }
+ 
+
+import React from 'react'
+
+ const index = () => {
+    return (
+        <div>
+            <Navbar />
+            <SubNav />
+            <Section />
+            <Body />
+            <Payment />
+            <Offer />
+            <Trending />
+            <Specialoffer />
+            <Trending />
+            <Partners />
+            <Articles />
+            <Footer />
+        </div>
+    )
 }
+export default index;

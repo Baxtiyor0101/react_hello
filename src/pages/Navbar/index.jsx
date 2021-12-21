@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
 import Navbar from '../../Components/Navbar';
-class index extends React.Component {
- 
+import React from 'react'
 
-    render() {
-        return (
-            <div>
-                <Navbar />
-            </div>
-        );
-    }
+const index = () => {
+    return (
+        <div>
+            <Navbar />
+        </div>
+    )
 }
 
 

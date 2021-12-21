@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
 import Section from '../../Components/Section';
-class index extends React.Component {
- 
+import React from 'react'
 
-    render() {
-        return (
-            <div>
-                <Section />
-            </div>
-        );
-    }
+  const index = () => {
+    return (
+        <div>
+            <Section />
+        </div>
+    )
 }
 
 

@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
-import { Wrap } from './style' ;
+import { Wrap } from './style';
+import React from 'react';
 
-export default class index extends Component {
-    render() {
-        return (
-            <div>
-                <Wrap.Categorybox>
+ const index = () => {
+    return (
+        <Wrap.Categorybox>
                     <Wrap.Titles>All</Wrap.Titles>
                     <Wrap.Titles>All</Wrap.Titles>
                     <Wrap.Titles>All</Wrap.Titles>
@@ -18,7 +16,6 @@ export default class index extends Component {
                     <Wrap.Titles>All</Wrap.Titles>
                     <Wrap.Titles title='borderles'>All</Wrap.Titles>
                 </Wrap.Categorybox>
-            </div>
-        )
-    }
+    )
 }
+export default index;
